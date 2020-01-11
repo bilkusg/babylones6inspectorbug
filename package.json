@@ -1,0 +1,26 @@
+{
+  "name": "babylon-inspector-bug",
+  "version": "1.0.0",
+  "description": "BABYLON.js and ES6 inspector doesn't work without webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "es-dev-server --mode-resolve --preserve-symlinks"
+  },
+  "keywords": [
+    "oculus",
+    "webgl",
+    "babylonjs"
+  ],
+  "author": "Gary M. Bilkus",
+  "license": "ISC",
+  "devDependencies": {
+    "@babylonjs/core": "^4.0.3",
+    "@babylonjs/gui": "^4.0.3",
+    "@babylonjs/inspector": "^4.0.3",
+    "@babylonjs/loaders": "^4.0.3",
+    "@babylonjs/materials": "^4.0.3",
+    "es-dev-server": "^1.36.1",
+    "typescript": "^3.7.4"
+  }
+}
